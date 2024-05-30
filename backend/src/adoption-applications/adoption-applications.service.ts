@@ -56,7 +56,7 @@ export class AdoptionApplicationsService {
     try {
       const application = await this.adoptionApplicationModel.findById(id).exec();
       if (!application) throw new HttpException('Adoption application not found', HttpStatus.NOT_FOUND);
-      if (application.userId !== userId) throw new HttpException('Unauthorized', HttpStatus.UNAUTHORIZED);
+      if (application.userId !== userId.toString()) throw new HttpException('Unauthorized', HttpStatus.UNAUTHORIZED);
       const updatedApplication = await this.adoptionApplicationModel.findByIdAndUpdate(
         id,
         { ...updateAdoptionApplicationDto, updatedAt: Date.now() },
