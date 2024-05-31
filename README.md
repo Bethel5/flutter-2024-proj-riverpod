@@ -2,15 +2,12 @@
 
 A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Team Members
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Name             | ID           |
+|------------------|--------------|
+| Bethel Dereje     | UGR/1397/14  |
+| Fenet Mulugeta  | UGR/1301/14  |
+| Hiwot Addis  | UGR/3763/14  |
+| Kalkidan Teklehaimanot  | UGR/4332/14  |
