@@ -45,11 +45,18 @@ dependencies:
   image_picker: ^1.1.1
   mime: ^1.0.5
   http_parser: ^4.0.2
+  
+  
   # google_fonts:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  integration_test:
+    sdk: flutter
+  mockito: ^5.4.4
+  build_runner: ^2.4.9
+  test: ^1.24.9
   
 
   # The "flutter_lints" package below contains a set of recommended lints to

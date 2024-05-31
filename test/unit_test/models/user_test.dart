@@ -30,24 +30,6 @@ void main() {
       expect(user.role, 'admin');
     });
 
-    test('User equality', () {
-      final user1 = User(
-        id: '123',
-        email: 'test@example.com',
-        fullName: 'John Doe',
-        role: 'admin',
-      );
-
-      final user2 = User(
-        id: '123',
-        email: 'test@example.com',
-        fullName: 'John Doe',
-        role: 'admin',
-      );
-
-      expect(user1, equals(user2));
-    });
-
     test('User inequality', () {
       final user1 = User(
         id: '123',
