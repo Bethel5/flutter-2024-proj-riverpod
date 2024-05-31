@@ -1,4 +1,4 @@
-# flutter_pet_pal
+# flutter_pet_pal adoption app 
 
 A new Flutter project.
 
